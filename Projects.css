@@ -1,0 +1,145 @@
+body
+{
+    background-color: rgba(61, 44, 136, 0.514);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://via.placeholder.com/2992x3992/00ccff.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header
+{
+    background-image: url('https://via.placeholder.com/1920x328/4700b3.png?text=Header');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+#logo-container
+{
+    padding-top: 20px;
+}
+
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    border-radius: 20%;
+    padding: 5px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 230%;
+    font-family: 'Krona One', sans-serif;
+    color: chartreuse;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#sections
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.section
+{
+    width: 150px;
+    height: 25px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(153, 12, 218, 0.459);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #7fff00;
+}
+
+.section:hover
+{
+    background-color: rgba(153, 12, 218, 2);
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    align-content: center;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 90%;
+}
+
+.projects-descripton
+{
+    float: left;
+    color: lawngreen;
+    max-width: 40%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.projects-images-container
+{
+    float: right;
+    max-width: 50%;
+}
+
+@keyframes dancing 
+{
+    0%   {left:0px; top:0px;}
+    25%  {left:-40px; top:0px;}
+    50%  {left:-40px; top:50px;}
+    75%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+}
+
+.projects-images 
+{
+    position: relative;
+    float: right;
+    max-width: 80%;
+    height: auto;
+    border-radius: 50px;
+    margin: 20px;
+    animation: dancing 4s linear infinite
+}
+
+footer
+{   
+    padding-bottom: 20px;
+    background-image: url('https://via.placeholder.com/1920x623/ffbf80.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.footer-containers
+{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Author
+{
+    background-color: black;
+    margin: auto;
+    font-size: 150%;
+    color: gold;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+}
